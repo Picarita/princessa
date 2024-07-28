@@ -5,8 +5,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    margin: 2cm;
-    scroll-margin-top: 0;
+    margin: 0
 }
 
 .container {
