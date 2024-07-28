@@ -1,0 +1,48 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffcccb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 2cm;
+    scroll-margin-top: 2cm;
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    margin: auto;
+}
+
+.card {
+    padding: 20px;
+}
+
+h1 {
+    color: #ff69b4;
+    font-size: 2.5em;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;}
+
+p {
+    color: #333;
+    font-size: 1.2em;
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 90%;
+    }
+}
+
+b {
+    color: #ff69b4;
+    font-size: 2.5em;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
